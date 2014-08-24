@@ -1,0 +1,33 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5011
+
+*autorepeat* is a Vim plugin to repeat the normal mode command automatically.
+
+Latest version:
+https://github.com/user/autorepeat.vim
+
+USAGE
+
+Write the following setting to your vimrc.
+
+
+    nmap <Space>. <Plug>(autorepeat)
+
+
+Key sequence that is entered after "<Space>."  is repeated automatically.
+Repetition continues until you enter any key.
+
+Examples:
+
+    Repeat the movement to the left.(l)
+
+        <Space>.l
+
+
+    Repeat scroll to the bottom.(<C-f>)
+
+        <Space>.<C-f>
+
+
+    Repeat the deletion of the next word of the next match.(nwdiw)
+
+        <Space>.nwdiw
